@@ -1,0 +1,18 @@
+Quero fazer um pequeno simulador de batalha de turno. Nela precisa conter 4 classes.
+
+Personagem {
+    nome
+    vida
+    ataque
+    defesa
+} OK
+
+Assassino - causa dano critico no ataque, o dano critico vai ser o dano de ataque normal + um valor tirado em um d6. OK
+
+Guerreiro - tem um atributo adicional chamado escudo. Tem dois modos de combate um de ataque e um de defesa, no modo de defesa ele nao pode atacar e os pontos de defesa são somados com o valor do escudo. OK
+
+Mago - tem um atributo adicional chamado magia. Ao atacar se soma os seguintes dados {dado de fogo 0-2 (+3), dado de agua 3-5 (+5), um de terra 6-7(+7), um de ar 8-10(+9)} OK
+
+Clerigo - tem um atributo adicial chamado fé.  classe totalmente focada em buffar aliado ou debuffar um inimigo, tem 4 tipos de magia, buffar vida e diminuir a defesa (valor da fé + 1d30) e aumentar e diminuir ataque ( valor da fé + 1d10) OK
+
+Inimigo - Deve ter atributos do persangem base, porém ataque e defesa devem ser feitas de forma randomized baseado no nivel do inimigo (usar d6), deve mostrar o nivel do inimigo.
